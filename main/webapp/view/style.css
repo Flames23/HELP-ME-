@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+        background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+
+h1 {
+	color: black;
+        text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #red;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+}
+
+.Button1 {
+            background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+            width: 100%;
+            border: none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            display:block;
+            position:relative;
+            margin-top:5rem;
+}
+.format{
+    margin-top:3rem;
+}
+
+.Button2 {
+            background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+            width: 30%;
+            border: none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+}
+
+.box {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 15px;
+        border-radius: 15px;
+        width: 35%;
+}        
+.Box1 {
+	width: 450px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.Box2 {
+        width: 450px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+#Box3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+}
+
+#table {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+#table th {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            background-color: #66bbff;
+            color: #fff;
+}
+
+#table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+}

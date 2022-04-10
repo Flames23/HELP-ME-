@@ -1,0 +1,51 @@
+<html lang="pt-pt">
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imagens/puzzle.png">
+        <link rel="stylesheet" href="frmStyle.css">
+    </head>
+    <body>
+        <a href="index.html" class="Button1">Voltar</a>
+            <div class="box">
+            <form action="registro.jsp" method="post">
+                <fieldset>
+                    <legend><b>Fórmulário de cliente</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome completo</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput">Email</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelInput">Telefone</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="horario" id="horario" class="inputUser" required>
+                        <label for="horario" class="labelInput">Horário</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="datas" id="datas" class="inputUser" required>
+                        <label for="datas" class="labelInput">Data</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="vaga" id="vaga" class="inputUser" required>
+                        <label for="vaga" class="labelInput">Vagas</label>
+                    </div>
+                    <br><br>
+                    <input type="submit" value="Enviar" id="submit">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

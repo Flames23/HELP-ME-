@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Novo contrato</title>
+        <link rel="icon" href="imagens/puzzle.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Criar novo contrato</h1>
+            <form name="frmContrato" action="insert">
+		<table>
+			<tr>
+                            <td><input type="text" name="nome" placeholder="Nome"
+				class="Box1"></td>
+			</tr>
+                        <tr>
+                            <td><input type="text" name="email" placeholder="E-mail"
+				class="Box1"></td>
+			</tr>
+			<tr>
+                            <td><input type="text" name="fone" placeholder="Telefone"
+				class="Box2"></td>
+			</tr>
+                        <tr>
+                            <td><input type="text" name="horario" placeholder="Horário"
+				class="Box2"></td>
+			</tr>
+                        <tr>
+                            <td><input type="text" name="vaga" placeholder="Vagas"
+				class="Box2"></td>
+			</tr>
+                </table>
+                    <input type="button" value="Adicionar" class="Button1"
+			onclick="validar()">
+            </form>
+        </div>    
+	<script src="scripts/validador.js"></script>
+    </body>
+</html>
